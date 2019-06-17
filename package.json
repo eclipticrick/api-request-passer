@@ -1,0 +1,16 @@
+{
+  "name": "api-request-passer",
+  "version": "1.0.0",
+  "description": "A non-functional API that just passes the request to another API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Wesley Veenendaal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  }
+}
